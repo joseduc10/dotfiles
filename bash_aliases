@@ -10,4 +10,5 @@ alias reload='source ~/.bashrc'
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
-
+alias sessions='tmux list-sessions'
+alias switch='tmux switch -t $1'
